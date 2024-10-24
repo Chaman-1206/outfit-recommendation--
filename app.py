@@ -8,7 +8,7 @@ app = Flask(__name__)
 # Configuration
 OPENWEATHERMAP_API_KEY = '5d2391d0e97ff88582c9b29b6fd14ef2'
 TWILIO_ACCOUNT_SID = 'ACcdc84a1809114d46c924aca95ea0e4d3'
-TWILIO_AUTH_TOKEN = 'd7663719d614161805e8753a27a04536'
+TWILIO_AUTH_TOKEN = '0c7537256082c563ef12caeb89275acb'
 TWILIO_PHONE_NUMBER = 'whatsapp:+14155238886'  # Twilio Sandbox WhatsApp number
 
 # Global variable to store weather data temporarily
