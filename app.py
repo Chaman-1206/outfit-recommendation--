@@ -99,5 +99,5 @@ def details():
     return render_template('details.html', temperature=temperature, humidity=humidity, pressure=pressure, weather_description=weather_description, wind_speed=wind_speed, outfit=outfit, name=name, city=city)
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5001)
+    app.run()
 
