@@ -10,6 +10,7 @@ OPENWEATHERMAP_API_KEY = '5d2391d0e97ff88582c9b29b6fd14ef2'
 TWILIO_ACCOUNT_SID = 'ACcdc84a1809114d46c924aca95ea0e4d3'
 TWILIO_AUTH_TOKEN = '0c7537256082c563ef12caeb89275acb'
 TWILIO_PHONE_NUMBER = 'whatsapp:+14155238886'  # Twilio Sandbox WhatsApp number
+TWILIO_SANDBOX_JOIN_CODE = "join shape-beside"  # Twilio Sandbox join code
 
 # Global variable to store weather data temporarily
 weather_data = {}
@@ -57,7 +58,7 @@ def send_whatsapp_message(name, number, city, outfit):
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('index.html', sandbox_code=TWILIO_SANDBOX_JOIN_CODE)
 
 @app.route('/submit', methods=['POST'])
 def submit():
