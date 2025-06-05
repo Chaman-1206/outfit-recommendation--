@@ -1,1 +1,1 @@
-check out https://outfit-recommendation.onrender.com
+Try the project https://outfit-recommendation.onrender.com
