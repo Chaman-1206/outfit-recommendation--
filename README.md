@@ -6,7 +6,7 @@ This is a smart web application that recommends daily outfits based on real-time
 
 👉 [Click here to try it out]  (https://outfit-recommendation.onrender.com)
 
-⚠️ **Note**: The app may take 30–60 seconds to load if it has been inactive. This is due to Render's free tier "sleep mode".
+⚠️ **Note**: The website may take 30–60 seconds to load if it has been inactive. This is due to Render's free tier "sleep mode".
 
 ## 📌 Features
 
