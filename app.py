@@ -6,11 +6,11 @@ from twilio.base.exceptions import TwilioRestException
 app = Flask(__name__)
 
 # Configuration
-OPENWEATHERMAP_API_KEY = '5d2391d0e97ff88582c9b29b6fd14ef2'
-TWILIO_ACCOUNT_SID = 'ACcdc84a1809114d46c924aca95ea0e4d3'
-TWILIO_AUTH_TOKEN = '693fe80bca3ff81759cd52ec4eeb732e'
+OPENWEATHERMAP_API_KEY = '################################'
+TWILIO_ACCOUNT_SID = '################################'
+TWILIO_AUTH_TOKEN = '################################'
 TWILIO_PHONE_NUMBER = 'whatsapp:+14155238886'  # Twilio Sandbox WhatsApp number
-TWILIO_SANDBOX_JOIN_CODE = "join shape-beside"  # Twilio Sandbox join code
+TWILIO_SANDBOX_JOIN_CODE = "join shape-beside"  # Twilio Sandbox join code   
 
 # Global variable to store weather data temporarily
 weather_data = {}
